@@ -1,0 +1,14 @@
+Zaidimo taisykles:
+
+1. Zaidimą gali zaisti 2-3 zaidejai.
+2. Zaidimo tiksla gali nusistatyti pats zaidejas  (minimum 300$).
+3. Zadimas yra pradedamas su 200$.
+4. Zaidimo lenta sudaro: startas, airport, nuosavybes, kalejimas, loterijos, policija ir specialieji laukeliai.
+5. Atsistojus ant nuosavybes :
+    - jei ji niekam nepriklauso, zaidejas gali nusipirkti. 
+    - jei ji priklauso zaidejui, kuris ant jos atsistojo, jis gali statyti max 3 pastatus, kurie didina nuomos kaina.
+    - jei ji priklauso kitam zaidejui, tai yra mokama nustatyta nuoma.
+6. Zaidimo pabaiga:
+    - laimi tas,kuris pirmas surenka nustatyta tiksla.
+    - jeigu zaidejas bankrutavo, jis yra pasalinamas is zaidimo ir jeigu zaidime yra >2 zaideju, tai zaidimas tesiasi.
+    - jeigu visos nuosavybes yra nupirktos, tai laimi tas, kuris turi daugiausia nuosavybiu ir bent viena is ju turi visus 3 pastatus.

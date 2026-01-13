@@ -1,0 +1,302 @@
+{
+"board": 
+[
+
+    {
+        "id":1,
+        "pavadinimas": "Startas",
+        "tipas": "start",
+        "kaina":0,
+        "savininkas":null,
+        "pastatai": [],
+        "spalva": null
+    },
+    {
+        "id":2,
+        "pavadinimas": "Airport arrival",
+        "tipas": "arrival"
+    },
+    {
+        "id": 3,
+        "pavadinimas": "Kotor",
+        "tipas": "nuosavybe",
+        "kaina": 60,
+        "savininkas": null,
+        "spalva": "ruda",
+        "pastatoKaina": 40,
+        "pastatai": [],
+        "nuoma": 10
+    },
+    {
+        "id": 4,
+        "pavadinimas": "Sintra",
+        "tipas": "nuosavybe",
+        "kaina": 60,
+        "savininkas": null,
+        "spalva": "ruda",
+        "pastatoKaina": 40,
+        "pastatai": [],
+        "nuoma": 20
+    },
+    {
+        "id": 5,
+        "pavadinimas": "CofeeLab",
+        "tipas": "nuosavybe",
+        "kaina": 70,
+        "savininkas": null,
+        "spalva": "ruda",
+        "pastatoKaina": 40,
+        "pastatai": [],
+        "nuoma": 30
+    },
+    {
+        "id": 6,
+        "pavadinimas": "Prison",
+        "tipas": "prison",
+        "kaina": 0,
+        "savininkas": null,
+        "spalva": null
+    },
+    {
+        "id": 7,
+        "pavadinimas": "Santorini",
+        "tipas": "nuosavybe",
+        "kaina": 120,
+        "savininkas": null,
+        "spalva": "sviesiai melyna",
+        "pastatoKaina": 80,
+        "pastatai": [],
+        "nuoma": 40
+    },
+    {
+        "id": 8,
+        "pavadinimas": "Riomaggiore",
+        "tipas": "nuosavybe",
+        "kaina": 120,
+        "savininkas": null,
+        "spalva":"sviesiai melyna",
+        "pastatoKaina": 80,
+        "pastatai": [],
+        "nuoma": 50
+    },
+    {
+        "id": 9,
+        "pavadinimas": "Hallstatt",
+        "tipas": "nuosavybe",
+        "kaina": 130,
+        "savininkas": null,
+        "spalva":"sviesiai melyna",
+        "pastatoKaina": 80,
+        "pastatai": [],
+        "nuoma": 50
+    },
+    {
+        "id": 10,
+        "pavadinimas": "Loterija",
+        "tipas": "loterija",
+        "kaina":0,
+        "spalva": null
+    },
+    {
+        "id": 11,
+        "pavadinimas": "Airport",
+        "tipas": "airport"
+    },
+    {
+        "id": 12,
+        "pavadinimas": "Louvre",
+        "tipas": "nuosavybe",
+        "kaina": 160,
+        "savininkas": null,
+        "spalva": "rozine",
+        "pastatoKaina": 100,
+        "pastatai": [],
+        "nuoma": 60
+    },
+    {
+        "id": 13,
+        "pavadinimas": "Eifel tower",
+        "tipas": "nuosavybe",
+        "kaina": 170,
+        "savininkas": null,
+        "spalva": "rozine",
+        "pastatoKaina": 100,
+        "pastatai": [],
+        "nuoma": 70
+    },
+    {
+        "id": 14,
+        "pavadinimas": "Palais Garnier",
+        "tipas": "nuosavybe",
+        "kaina": 170,
+        "savininkas": null,
+        "spalva": "rozine",
+        "pastatoKaina": 100,
+        "pastatai": [],
+        "nuoma": 80
+    },
+    {
+       "id": 15,
+        "pavadinimas": "Police",
+        "tipas": "police",
+        "spalva": null 
+    },
+    {
+        "id": 16,
+        "pavadinimas": "Loterija",
+        "tipas": "loterija",
+        "spalva": null
+    },
+    {
+        "id": 17,
+        "pavadinimas": "Nemokamas metimas",
+        "tipas": "specialus",
+        "spalva": null 
+    }, 
+    {
+        "id": 18,
+        "pavadinimas": "Miracle Garden",
+        "tipas": "nuosavybe",
+        "kaina":200,
+        "savininkas": null,
+        "spalva": "tamsiai melyna",
+        "pastatoKaina": 130,
+        "pastatai": [],
+        "nuoma": 90 
+    },
+    {
+        "id": 19,
+        "pavadinimas": "F1 trasa",
+        "tipas": "nuosavybe",
+        "kaina":220,
+        "savininkas": null,
+        "spalva": "tamsiai melyna",
+        "pastatoKaina": 130,
+        "pastatai": [],
+        "nuoma": 100 
+    },
+    {
+        "id": 20,
+        "pavadinimas": "Burj Al Arab",
+        "tipas": "nuosavybe",
+        "kaina":250,
+        "savininkas": null,
+        "spalva": "tamsiai melyna",
+        "pastatoKaina": 130,
+        "pastatai": [],
+        "nuoma":110
+    }
+],
+
+"cards": [
+    {
+        "id": 1,
+        "text": "Gavai 50 pinigu is banko!",
+        "action": "addMoney",
+        "amount": 50
+    },
+    {
+        "id": 2,
+        "text": "Sumokek 30 pinigu bankui,",
+        "action": "removeMoney",
+        "amount": 30
+    },
+    {
+        "id": 4,
+        "text": "Praleisk viena ejima.",
+        "action": "skip"
+    },
+    {
+        "id": 5,
+        "text": "Sumokek mokesti miesto biudzetui - 20 pinigu",
+        "action": "removeMoney",
+        "amount": 20
+    },
+    {
+        "id": 6,
+        "text": "Laimejai loterija! 80$",
+        "action": "addMoney",
+        "amount": 80
+    },
+    {
+        "id": 8,
+        "text": "Deja tavo automobilis sugedo, sumokek remontui 50 pinigu",
+        "action": "removeMoney",
+        "amount": 50
+    },
+    {
+        "id": 9,
+        "text": "Gimtadienio dovana 20 pinigu!",
+        "action": "addMoney",
+        "amount": 20
+    },
+    {
+        "id": 11,
+        "text": "Bauda uz nesumoketa parkavima. Sumokek 30 pinigu.",
+        "action": "removeMoney",
+        "amount": 30
+    },
+    {
+        "id": 13,
+        "text": "Nominacija: ,,Metu kliauninkas''. Pasiimk 100 pinigu. ",
+        "action": "addMoney",
+        "amount": 100
+    },
+    {
+        "id": 14,
+        "text": "Radote pinigine su 100$!",
+        "action": "addMoney",
+        "amount": 100
+    },
+    {
+        "id": 15,
+        "text": "Laimejote televizijos viktorinoje 70$!",
+        "action": "addMoney",
+        "amount": 70
+    },
+    {
+        "id": 16,
+        "text": "Atgavote permoketus mokescius is viso 80$.",
+        "action": "addMoney",
+        "amount": 80
+    },
+    {
+        "id": 17,
+        "text": "Pametete pinigine su 70$",
+        "action": "removeMoney",
+        "amount": 70
+    },
+    {
+        "id": 18,
+        "text": "Praradote 90$ kazino.",
+        "action": "removeMoney",
+        "amount": 90
+    },
+    {
+        "id": 19,
+        "text": "Sumokejote uz atostogas 100$",
+        "action": "removeMoney",
+        "amount": 100
+    },
+    {
+        "id": 20,
+        "text": "Patekote i eismo kamsti - praleidziate ejima.",
+        "action": "skip"
+    },
+    {
+        "id": 21,
+        "text": "Susirgote gripu - turite pailseti.",
+        "action": "skip"
+    },
+    {
+        "id": 22,
+        "text": "Sugedo jusu automobilis, laukite pagalbos.",
+        "action": "skip"
+    },
+    {
+        "id": 23,
+        "text": "Reidas.",
+        "action": "skip"
+    }
+]
+}
